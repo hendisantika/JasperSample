@@ -1,4 +1,4 @@
-package com.kritacademy.spring.sample.report;
+package com.hendisantika.spring.jasper.sample.report;
 
 import net.sf.jasperreports.engine.JRDataSource;
 import net.sf.jasperreports.engine.JRException;
@@ -10,16 +10,24 @@ import java.beans.PropertyDescriptor;
 import java.lang.reflect.Method;
 import java.util.Iterator;
 import java.util.List;
-/*
-* Credit: https://github.com/evgenyigumnov/spring-boot-security-rest-thymleaf-angularjs-bootstrap-jasperreports-jpa-seed
-*/
+
+/**
+ * Created by IntelliJ IDEA.
+ * Project : backend
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 05/05/18
+ * Time: 08.54
+ * To change this template use File | Settings | File Templates.
+ */
 public class CustomJRDataSource<T> implements JRDataSource {
 
     private Iterator<T> iterator;
     private Object currentObject;
 
     @Override
-    public boolean next() throws JRException {
+    public boolean next() {
         if (iterator.hasNext()) {
             currentObject = iterator.next();
             return true;

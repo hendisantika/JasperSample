@@ -1,11 +1,9 @@
-package com.kritacademy.spring.sample.controller;
+package com.hendisantika.spring.jasper.sample.controller;
 
-import com.kritacademy.spring.sample.models.entity.City;
-import com.kritacademy.spring.sample.report.CustomJRDataSource;
+import com.hendisantika.spring.jasper.sample.models.entity.City;
+import com.hendisantika.spring.jasper.sample.report.CustomJRDataSource;
 import net.sf.jasperreports.engine.*;
-
 import org.apache.log4j.Logger;
-
 import org.springframework.http.HttpEntity;
 import org.springframework.http.HttpHeaders;
 import org.springframework.http.MediaType;
@@ -21,7 +19,14 @@ import java.util.HashMap;
 import java.util.List;
 
 /**
- * Created by Chertpong on 5/10/2016.
+ * Created by IntelliJ IDEA.
+ * Project : backend
+ * User: hendisantika
+ * Email: hendisantika@gmail.com
+ * Telegram : @hendisantika34
+ * Date: 05/05/18
+ * Time: 08.54
+ * To change this template use File | Settings | File Templates.
  */
 @Controller
 public class ReportController {

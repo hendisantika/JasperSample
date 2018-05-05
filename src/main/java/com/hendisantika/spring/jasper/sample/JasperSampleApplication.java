@@ -1,4 +1,4 @@
-package com.kritacademy.spring.sample;
+package com.hendisantika.spring.jasper.sample;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
