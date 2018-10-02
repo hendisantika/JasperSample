@@ -49,6 +49,7 @@ public class ReportController {
         // Stub data
         City c = new City("Chiang Mai",22);
         City c1 = new City("Bangkok", 11);
+        City c2 = new City("Jakarta", 350);
         List<City> cities = Arrays.asList(c,c1);
         generateReport(cities);
         logger.info("[+] Generated report successfully");
